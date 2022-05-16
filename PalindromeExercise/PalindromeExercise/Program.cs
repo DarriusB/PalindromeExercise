@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using PalindromeExercise;
 
 namespace PalindromeExercise
 {
@@ -6,7 +8,9 @@ namespace PalindromeExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var pali = new WordSmith();
+            string result = "Anna";
+            Console.WriteLine(pali.IsAPalindrome(result));
         }
     }
 }
